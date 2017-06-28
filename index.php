@@ -70,12 +70,20 @@ $canvas->rect(3,6,4,12);
 $canvas->draw();*/
 
 //迭代器模式
-$users=new \IMooc\AllUser();
+/*$users=new \IMooc\AllUser();
 foreach ($users as $user){
     var_dump($user->name);
-}
+    $user->rand=1234;
+}*/
+
+//代理模式
+$proxy=new \IMooc\Proxy();
+$proxy->getUserName(1);
+$proxy->setUserName(1,'zhang');
 
 
-
-
+//自动加载配置
+/*
+$config=new \IMooc\Config(__DIR__.'/IMooc/config');
+var_dump($config['controller']);*/
 
