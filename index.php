@@ -76,6 +76,7 @@ foreach ($users as $user){
     $user->rand=1234;
 }*/
 
+
 //代理模式
 $proxy=new \IMooc\Proxy();
 $proxy->getUserName(1);
