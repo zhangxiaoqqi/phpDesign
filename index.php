@@ -78,9 +78,9 @@ foreach ($users as $user){
 
 
 //代理模式
-$proxy=new \IMooc\Proxy();
-$proxy->getUserName(1);
-$proxy->setUserName(1,'zhang');
+//$proxy=new \IMooc\Proxy();
+//$proxy->getUserName(1);
+//$proxy->setUserName(1,'zhang');
 
 
 //自动加载配置
