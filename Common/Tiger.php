@@ -18,14 +18,14 @@ class XTiger extends Tiger
 {
     public  function climb()
     {
-        echo 'Drop' , '';
+        echo 'Drop';
         // TODO: Implement climb() method.
     }
 }
 
 class MTiger extends Tiger {
     public function climb() {
-        echo 'Up' , '';
+        echo 'Up';
     }
 }
 
